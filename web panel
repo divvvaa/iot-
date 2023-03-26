@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Automation Dashboard</title>
+	<style>
+		/* Add your custom CSS styles here */
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin: 20px;
+		}
+
+		.card {
+			background-color: #fff;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			padding: 20px;
+			margin-bottom: 20px;
+			width: calc(33.33% - 20px);
+		}
+
+		.card h2 {
+			margin-top: 0;
+			font-size: 24px;
+		}
+
+		.card p {
+			margin: 0;
+			font-size: 18px;
+		}
+
+		.temperature {
+			background-color: #f44336;
+			color: #fff;
+		}
+
+		.lighting {
+			background-color: #4CAF50;
+			color: #fff;
+		}
+
+		.gas {
+			background-color: #FFC107;
+			color: #fff;
+		}
+
+		.energy {
+			background-color: #2196F3;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Home Automation Dashboard</h1>
+	</header>
+	<div class="container">
+		<div class="card temperature">
+			<h2>Temperature Control Panel</h2>
+			<p>Current Temperature: 25&deg;C</p>
+			<button>Adjust Temperature</button>
+		</div>
+		<div class="card lighting">
+			<h2>Smart Lighting</h2>
+			<p>Lighting Status: On</p>
+			<button>Turn Off Lights</button>
+		</div>
+		<div class="card gas">
+			<h2>Gas Detection</h2>
+			<p>Gas Level: Normal</p>
+			<button>View Gas Details</button>
+		</div>
+		<div class="card energy">
+			<h2>Energy Consumption Data Analysis</h2>
+			<p>Current Energy Usage: 500W</p>
+			<button>View Usage Data</button>
+		</div>
+	</div>
+</body>
+</html>
